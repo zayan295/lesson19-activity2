@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 19 Activity 2</title>
+    </head> 
+
+
+
+    <body>
+
+        <h1>JavaScript Basics</h1>
+
+        <p id="text"></p>
+
+
+        <h3>Arithmetic Operations</h3>
+
+        <p>Addition (5+2)<span id="AdditionResult"> </span></p>
+        <p>Substraction (5-2)<span id="SubstractionResult"> </span></p>
+        <p>Multiplication (5*2)<span id="MultiplicationResult"> </span></p>
+        <p>Division (5/2)<span id="DivisionResult"> </span></p>
+
+
+
+
+        <script>
+
+
+
+    var para1 = "Hello, we are using JavaScript!"
+    var para2 = "It's a powerful coding language."
+
+
+
+    document.getElementById("text").innerHTML = para1 + "<br>" + para2
+    
+
+
+    var y = 5
+    var x = 2
+
+    var addition = x + y
+    document.getElementById("AdditionResult").innerHTML = addition
+
+
+     var substraction = x - y
+     document.getElementById("SubstractionResult").innerHTML = substraction
+
+
+
+    var multiplication = x * y
+    document.getElementById("MultiplicationResult").innerHTML = multiplication
+
+
+
+     var division = x - y
+     document.getElementById("DivisionResult").innerHTML = division
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
